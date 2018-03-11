@@ -1,0 +1,152 @@
+html {
+    font-family: 'Calibri', sans-serif;
+    font-size: 16px;
+    color: rgb(70,70,85);
+    overflow-x: hidden;
+    background-color: rgba(208, 41, 41, 1);
+    
+}
+
+body {
+    width: 100%;
+}
+
+
+
+h3 {text-align: center;
+    margin: 0;
+    padding-top: 40px;
+
+}
+
+#one {
+    background-color: rgba(167, 51, 42, 0.9);
+    width:90%;
+    height: 100px;
+    transition: 0.4s;
+}
+
+#two {
+    background-color: rgba(167, 51, 42, 0.8);
+    width:80%;
+    height: 100px; 
+    transition: 0.4s;
+}
+
+#three {
+    background-color: rgba(167, 51, 42, 0.7);
+    width:70%;
+    height: 100px; 
+    transition: 0.4s;
+}
+
+#four {
+    background-color: rgba(167, 51, 42, 0.6);
+    width:60%;
+    height: 100px; 
+    transition: 0.4s;
+}
+
+#five {
+    background-color: rgba(167, 51, 42, 0.5);
+    width:50%;
+    height: 100px; 
+    transition: 0.4s;
+}
+
+#six {
+    background-color: rgba(167, 51, 42, 0.4);
+    width:40%;
+    height: 100px; 
+    transition: 0.4s;
+}
+
+#seven {
+    background-color: rgba(167, 51, 42, 0.3);
+    width:30%;
+    height: 100px; 
+    transition: 0.4s;
+}
+
+#eight {
+    background-color: rgba(167, 51, 42, 0.2);
+    width:20%;
+    height: 100px; 
+    transition: 0.4s;
+}
+
+#nine {
+    background-color: rgba(167, 51, 42, 0.1);
+    width:10%;
+    height: 100px; 
+    transition: 0.4s;
+}
+
+.body-section {
+    margin-top: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.8rem;
+    text-align: center;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    header {
+        background-color: rgba(4, 138, 116, 1);
+    }
+    h3 {
+        font-style: 'Calibri';
+    }
+
+    #one {
+        background-color: rgba(4, 138, 116, 0.9);
+        width: 10%;
+        -webkit-transform: translateZ(0);
+    }
+
+    #two {
+         background-color: rgba(4, 138, 116, 0.8); 
+         width: 20%;
+    }
+
+    #three {
+         background-color: rgba(4, 138, 116, 0.7); 
+         width: 30%;
+    }
+    #four {
+         background-color: rgba(4, 138, 116, 0.6);
+         width: 40%; 
+    }
+    #five {
+         background-color: rgba(4, 138, 116, 0.5);
+         width: 50%; 
+    }
+    #six {
+         background-color: rgba(4, 138, 116, 0.4); 
+         width: 60%;
+    }
+    #seven {
+         background-color: rgba(4, 138, 116, 0.3); 
+         width: 70%;
+    }
+
+    #eight {
+         background-color: rgba(4, 138, 116, 0.2); 
+         width: 80%;
+    }
+    #nine {
+         background-color: rgba(4, 138, 116, 0.1); 
+         width: 90%;
+    }
+
+
+}
+
+
