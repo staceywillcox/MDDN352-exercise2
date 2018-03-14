@@ -1,7 +1,7 @@
 html {
     font-family: 'Calibri', sans-serif;
     font-size: 16px;
-    color: rgb(70,70,85);
+
     overflow-x: hidden;
     background-color: rgba(208, 41, 41, 1);
     
@@ -11,20 +11,57 @@ body {
     width: 100%;
 }
 
+h3{
+    font-size: 2em;
+}
 
-h3 {text-align: center;
-    margin: 0;
-    padding-top: 40px;
-
+p {
+    font-size: 0.9em;
 }
 
 .container{
- display: flex;
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: flex-end;
+    border-bottom: solid 2px; 
+    /*border-top: solid 5px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .item{
-    width:200px;
-    height:200px;
-    background-color:black;
-    margin:auto;
+    flex-grow:2;
+    flex-basis: 0;
+
+    /*background-color:black;*/
+    margin: 0; 
+    padding:10px;
+
+}
+
+
+.title{
+    flex-grow:3;
+    flex-basis: 0;
+
+    /*background-color:black;*/
+    margin: 0;
+    padding:10px;
+}
+
+@media (max-width: 400px){
+    .title{
+
+    flex-basis: 100%;
+    order:-1;
+
+}
+
+.item{
+    flex-grow:2;
+    flex-basis: 100%;
+
+}
 }
